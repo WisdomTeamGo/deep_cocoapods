@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary  = 'Super Awesome Easy Fetching for Core Data 1!!!11!!!!1!.'
   s.homepage = 'https://github.com/WisdomTeamGo/magicalrecord'
   s.author   = { 'Saul Mora' => 'saul@magicalpanda.com', 'Tony Arnold' => 'tony@thecocoabots.com' }
-  s.source   = { :git => 'https://github.com/WisdomTeamGo/magicalrecord.git', :tag => "v#{s.version}" }
+  s.source   = { :git => 'https://github.com/WisdomTeamGo/magicalrecord.git', :tag => s.version }
   s.description  = 'Handy fetching, threading and data import helpers to make Core Data a little easier to use.'
   s.requires_arc = true
   s.ios.deployment_target = '6.1'
