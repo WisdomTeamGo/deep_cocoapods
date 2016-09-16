@@ -19,23 +19,23 @@ Pod::Spec.new do |s|
   s.dependency 'MagicalRecord'
 
   s.subspec 'QSCore' do |ss|
-  ss.source_files = 'QSFrameWork/QSCore/*.{h,m,c}'
+  ss.source_files = 'QSFrameWork/QSCore/*.{h,m,c}','QSFrameWork/QSCore/**/*.{h,m,c}"
   end
 
   s.subspec 'QSService' do |ss|
-  ss.source_files = 'QSFrameWork/QSService/*.{h,m,c}'
+  ss.source_files = 'QSFrameWork/QSService/*.{h,m,c}','QSFrameWork/QSService/**/*.{h,m,c}"
   end
 
   s.subspec 'QSNetwork' do |ss|
-  ss.source_files = 'QSFrameWork/QSNetwork/*.{h,m,c}'
+  ss.source_files = 'QSFrameWork/QSNetwork/*.{h,m,c}','QSFrameWork/QSNetwork/**/*.{h,m,c}"
   end
 
   s.subspec 'QSUI' do |ss|
-  ss.source_files = 'QSFrameWork/QSUI/*.{h,m,c}'
+  ss.source_files = 'QSFrameWork/QSUI/*.{h,m,c}','QSFrameWork/QSUI/**/*.{h,m,c}"
   end
 
   s.subspec 'QSDataStore' do |ss|
-  ss.source_files = 'QSFrameWork/QSDataStore/*.{h,m,c}'
+  ss.source_files = 'QSFrameWork/QSDataStore/*.{h,m,c}','QSFrameWork/QSDataStore/**/*.{h,m,c}"
   end
 
   s.libraries = 'xml2', 'sqlite3'
