@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '7.0'
 
-  s.public_header_files = 'QSFrameWork/**/*.h'
-  s.source_files =  "QSFrameWork", "QSFrameWork/**/*.{h,m,c}"
+  s.public_header_files = 'QSFrameWork/QSFrameWork.h'
+  s.source_files =  "QSFrameWork", "QSFrameWork/QSFrameWork.{h,m,c}"
   s.resources = ["QSFrameWork/**/*.{png,jpg,xib,storyboard,txt}"]
 
   s.dependency 'AFNetworking'
