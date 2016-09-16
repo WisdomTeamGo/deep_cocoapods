@@ -13,28 +13,29 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'QSFrameWork/**/*.h'
   s.source_files =  "QSFrameWork", "QSFrameWork/**/*.{h,m,c}"
+  s.resources = ["QSFrameWork/**/*.{png,jpg,xib,storyboard,txt}"]
 
   s.dependency 'AFNetworking'
   s.dependency 'MagicalRecord'
 
   s.subspec 'QSCore' do |ss|
-  ss.source_files = 'QSFrameWork/QSCore/**/*.{h,m,c}'
+  ss.source_files = 'QSFrameWork/QSCore/*.{h,m,c}'
   end
 
   s.subspec 'QSService' do |ss|
-  ss.source_files = 'QSFrameWork/QSService/**/*.{h,m,c}'
+  ss.source_files = 'QSFrameWork/QSService/*.{h,m,c}'
   end
 
   s.subspec 'QSNetwork' do |ss|
-  ss.source_files = 'QSFrameWork/QSNetwork/**/*.{h,m,c}'
+  ss.source_files = 'QSFrameWork/QSNetwork/*.{h,m,c}'
   end
 
   s.subspec 'QSUI' do |ss|
-  ss.source_files = 'QSFrameWork/QSUI/**/*.{h,m,c}'
+  ss.source_files = 'QSFrameWork/QSUI/*.{h,m,c}'
   end
 
   s.subspec 'QSDataStore' do |ss|
-  ss.source_files = 'QSFrameWork/QSDataStore/**/*.{h,m,c}'
+  ss.source_files = 'QSFrameWork/QSDataStore/*.{h,m,c}'
   end
 
   s.libraries = 'xml2', 'sqlite3'
