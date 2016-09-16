@@ -14,6 +14,9 @@ Pod::Spec.new do |s|
   s.public_header_files = 'QSFrameWork/**/*.h'
   s.source_files =  "QSFrameWork", "QSFrameWork/**/*.{h,m,c}"
 
+  s.dependency 'AFNetworking'
+  s.dependency 'MagicalRecord'
+
   s.libraries = 'xml2', 'sqlite3'
   s.frameworks = 'CoreGraphics', 'Foundation', 'UIKit'
   s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
