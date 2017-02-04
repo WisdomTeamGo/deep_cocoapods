@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author       = { "zhanghesheng" => "zhangshuisheng1@126.com" }
 
   s.source       = { :git => "https://github.com/WisdomTeamGo/datetools.git",
-                     :tag => "v#{s.version.to_s}" }
+                     :tag => s.version }
 
   s.platforms = { :ios => '7.0', :osx => '10.7' }
 
