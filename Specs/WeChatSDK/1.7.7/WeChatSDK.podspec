@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.author              = { "zhangshuisheng" => "zhangshuisheng1@126.com" }
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/WisdomTeamGo/wechatsdk.git", :tag => "{s.version}" }
+  s.source       = { :git => "https://github.com/WisdomTeamGo/wechatsdk.git", :tag => s.version }
 
   s.source_files  = "WeChatSDK/*.{h,m}"
   s.frameworks = "SystemConfiguration", "CoreTelephony"
